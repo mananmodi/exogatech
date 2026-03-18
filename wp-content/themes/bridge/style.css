@@ -1,0 +1,626 @@
+/*
+Theme Name: Bridge
+Theme URI: https://bridgelanding.qodeinteractive.com/
+Description: Creative Multipurpose WordPress Theme
+Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-menu, featured-images, flexible-header, post-formats, sticky-post, threaded-comments, translation-ready
+Author: Qode Interactive
+Author URI: https://qodeinteractive.com/
+Text Domain: bridge
+Version: 30.8.8.5
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+CSS changes can be made in files in the /css/ folder. This is a placeholder file required by WordPress, so do not delete it.
+
+*/
+
+.workshops-feature-image {
+    height: 320px;
+    position: relative;
+    overflow: hidden;
+}
+.workshops-dates{  
+    padding: 0px 0px 8px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: #523F88;
+}
+.workshops-feature-image a, .workshops-feature-image img{
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover;
+    border-radius: 30px 0px 30px 0 !important;
+    overflow: hidden;
+    transition: 0.4s ease;
+    -webkit-transition: 0.4s ease;
+}
+
+.workshops-slider .slick-arrow, .trainer-slider .slick-arrow {
+    font-size: 0 !important;
+    width: 50px !important;
+    height: 50px !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    padding: 0 !important;
+    z-index: 9999;
+    opacity: 1 !important;
+}
+.workshops-slider .slick-arrow::before, .trainer-slider .slick-arrow::before {
+    opacity: 1 !important;
+    content: '\f105';
+    font-family: 'FontAwesome';
+    font-size: 30px ! IMPORTANT;
+}
+.workshops-slider .slick-arrow.slick-prev::before,  .trainer-slider .slick-arrow.slick-prev::before{
+   transform: rotate(180deg);
+    position: relative;
+    top: 2px;
+    left: -1px;
+}
+.workshops-slider .slick-list, .trainer-slider .slick-list{
+    margin: 0 -20px;
+}
+.workshop-item, .trainer-slider .trainer-list {
+    padding: 0 20px;
+}
+.workshop-item h3.workshops-title{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    display: -webkit-box;        
+    -webkit-line-clamp: 2;       
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 68px;
+}
+.workshop-short-desc p {
+    display: -webkit-box;        
+    -webkit-line-clamp: 3;       
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 81px;
+}
+.workshop-item h3.workshops-title , .workshop-item h3.workshops-title a{
+    font-family: 'Signika';
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 34px;
+}
+.workshop-short-desc p {
+    color:#38373D;
+}
+a.workshops-btn, a.book-btn{
+    background-color: #523F88;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 22px 42px 20px;
+    line-height: 20px;
+    transition: 0.4s ease;
+    -webkit-transition: 0.4s ease;
+    margin-top: 20px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+a.workshops-btn:hover, a.book-btn:hover{
+    background-color:#38373D ;
+    color: #ffffff;
+}
+.workshops-listing , .trainer-listing, .workshops-listing .tab-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.workshops-listing .workshop-item, .trainer-listing .trainer-list, .workshops-listing .tab-content .workshop-item{
+    width: calc(33.33% - 17px);
+      padding: 0;
+}
+footer .q_social_icon_holder {
+    margin-right: 10px;
+}
+.top-info li{
+    list-style-type: none;
+}
+ul.top-info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+}
+ul.top-info li i{
+    margin-right: 5px;
+}
+ul.top-info li a:hover, ul.top-info li a:hover i{
+    color: #ffffff !important;
+}
+.header_top .header-widget:hover{
+    color: #ffffff !important;
+}
+.custom-html-widget:has(.top-info) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.trainer-list-image {
+    height: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.trainer-slider .slick-arrow {
+    top: 45%;
+}
+.trainer-list-image  a, .trainer-list-image  img{
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover;
+}
+.trainer-name{
+    font-size: 26px;
+    line-height: 32px;
+    color: #38373D;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.post-container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 100px 50px;
+}
+.category-section {
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+    gap: 15px;
+    align-items: center;
+}
+.category-section  span{
+    font-size: 18px;
+    font-weight: 600;
+    color: #38373D;
+    font-family: 'Signika', sans-serif;
+}
+/* Dropdown Styling */
+.dropdown select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #ffffff;
+    border: 0px solid #e3e3e3;
+    border-radius: 8px;
+    padding: 10px 40px 10px 15px;
+    font-size: 17px;
+    color: #38373D;
+    cursor: pointer;
+    transition: 0.3s ease;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='%2338373D' height='24' viewBox='0 0 24 24' width='24'><path d='M7 10l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 30px;
+    font-family: 'Signika', sans-serif;
+    font-weight: normal;
+}
+.dropdown select option {
+    background-color: #ffffff; /* Match dropdown background */
+    color: #38373D; /* Option text color */
+}
+.dropdown select:disabled{
+    color: #38373D;
+}
+.dropdown select option:disabled,.dropdown select option:hover {
+    color: #38373D !important; /* or #ffffff if you want it white too */
+    background-color: #ffffff;
+}
+.dropdown select:focus {
+  outline: none;
+  box-shadow: unset;
+}
+.qodef-e-text {
+    position: relative;
+    max-width: 800px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 0 50px !important;
+}
+/* Add Font Awesome quote icon before the text */
+.qodef-e-text::before {
+  content: "\f10d"; 
+  font-family: 'FontAwesome';
+  font-weight: 900; 
+  position: absolute;
+  left: 0px; 
+  top: -20px;
+  font-size: 40px;
+  color: #523F88;
+}
+.single-trainer .content_inner  .container{
+    background-color: #b3a6ba;
+}
+.single-trainer .content_inner  .container .container_inner{
+     padding: 100px 50px;
+    width: 100%;
+    max-width: 1300px;
+    box-sizing: border-box;
+}
+.ass-title{
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 50px;
+     color: #523F88;
+}
+.single-trainer  .post_image {
+    max-width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+    width: auto;
+}
+.single-trainer  .post_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.single-trainer  .post_text_inner h2{
+    font-size: 40px !important;
+    line-height: 48px !important;
+    font-weight: 600 !important;
+    font-family: 'signika' !important;
+    margin-bottom: 20px;   
+}
+.single-trainer  .post_text_inner p{
+    color: #38373D;
+}
+.single-trainer .title_size_small, .woocommerce.single-product .title_size_small{
+    height: auto !important;
+} 
+.single-trainer  .content.content_top_margin, .woocommerce.single-product  .content.content_top_margin{
+    margin-top: 175px !important;
+}
+.woocommerce.single-product .content .container {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #b3a6ba;
+    box-sizing: border-box;
+}
+.woocommerce.single-product .content .container .container_inner{
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 1300px;
+    padding-bottom: 100px;
+}
+.woocommerce .product .images .woocommerce-product-gallery__wrapper{
+    width: 100%;
+    max-width: 100%;
+    height: 400px;
+}
+.woocommerce .product .images .woocommerce-product-gallery__wrapper .woocommerce-product-gallery__image,
+.woocommerce .product .images .woocommerce-product-gallery__image:first-child a,
+.woocommerce .product .images .woocommerce-product-gallery__image:first-child img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.woocommerce .product .images.woocommerce-product-gallery--columns-4 .woocommerce-product-gallery__image:not(:first-child){
+    height: auto;
+}
+body.woocommerce .product h1.product_title {
+    font-size: 50px;
+    line-height: 58px;
+    text-transform: unset;
+    letter-spacing: 0;
+    margin-bottom: 25px;
+}
+.woocommerce-product-details__short-description p{
+    color: #38373D;
+}
+.qode-single-product-summary .qwfw-add-to-wishlist.qwfw-shortcode .qwfw-m-text {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    color: #38373D;
+}
+.qode-single-product-summary .qwfw-add-to-wishlist.qwfw-shortcode:before{
+    font-size: 18px;
+    line-height: 18px;
+    color: #38373D;
+    top: -2px;
+}
+.woocommerce .qode-single-product-summary span.posted_in, .woocommerce .qode-single-product-summary span.posted_in a {
+    font-size: 20px ! important;
+    line-height: 24px !important;
+    color: #38373D !important;
+    text-transform: unset !important;
+}
+ .woocommerce .qode-single-product-summary span.posted_in a{
+    font-weight: normal !important;
+ }
+  .woocommerce .qode-single-product-summary .product_meta {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+  .woocommerce .qode-single-product-summary  .workshops-dates{
+    padding: 0;
+    color: #38373D;
+    font-weight: normal;
+}
+ .woocommerce .qode-single-product-summary  .workshops-dates strong{
+    font-weight: bold;
+ }
+ .workshops-trainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.trainer-n, .w-trainer-img{
+    width: 100%;
+}
+.trainer-n a{
+    color: #523F88;
+}
+.w-trainer-img {
+    height: 300px;
+    border-radius: 0px;
+    overflow: hidden;
+    max-width: 300px;
+}
+.w-trainer-img a, .w-trainer-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cf7_custom_style_2 input.wpcf7-form-control.wpcf7-submit, .cf7_custom_style_2 input.wpcf7-form-control.wpcf7-submit:not([disabled]){
+    font-weight: normal;
+}
+ .woocommerce  .q_accordion_holder div.accordion_content_inner p{
+    color: #38373D;
+}
+ .woocommerce  .q_accordion_holder.accordion div.accordion_content{
+    padding-left: 0;
+}
+.woocommerce .q_accordion_holder.accordion div.accordion_content div#reviews h2{
+    font-size: 30px;
+    line-height: 38px;
+}
+.woocommerce .q_accordion_holder.accordion div.accordion_content div#reviews p, .woocommerce .q_accordion_holder.accordion div.accordion_content div#reviews span, 
+.woocommerce .q_accordion_holder.accordion div.accordion_content div#reviews strong,
+.woocommerce .q_accordion_holder.accordion div.accordion_content div#reviews label {
+    color: #000000;
+    font-size: 18px ! important;
+    line-height: 24px !important;
+    margin-bottom: 15px;
+}
+.woocommerce-page input[type="submit"]{
+    background-color: #523F88 !important;
+    border: unset !important;
+    color: #ffffff !important;
+    font-weight: normal  !important;
+}
+.woocommerce-page input[type="submit"]:hover{
+    background-color: #38373D !important;
+}
+.woocommerce p.stars span, .woocommerce-page p.stars span{
+        filter: brightness(0.6);
+}
+.q_accordion_holder.accordion h6.ui-accordion-header {
+    font-size: 21px;
+    line-height: 28px;
+    letter-spacing: 0px;
+}
+body.woocommerce .product .images .woocommerce-product-gallery__wrapper{
+    display: block;
+    margin: 0;
+}
+body.woocommerce .product .images{
+    float: left;
+}
+body.woocommerce .product .woocommerce-product-gallery{
+    margin-bottom: 30px;
+}
+body.woocommerce  .q_accordion_holder{
+    margin: 0;
+}
+body.woocommerce .summary{
+    margin-bottom: 0;
+}
+body.woocommerce .q_accordion_holder.boxed div.accordion_content_inner{
+    padding-bottom: 0;
+}
+body.woocommerce .q_accordion_holder.accordion .ui-accordion-header {
+    text-align: center;
+    background-color: #38373D;
+    color: #fff;
+    border-radius: 0px;
+    margin-top: 20px;
+    font-weight: 600;
+    padding-block: 15px;
+}
+body.woocommerce .q_accordion_holder.accordion .ui-accordion-header:hover{
+    background-color: #523F88;
+    color:#ffffff !important;
+}
+.cvf-universal-pagination {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 0;
+  font-family: 'signika';
+}
+
+.cvf-universal-pagination ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+}
+.cvf-universal-pagination ul li.inactive a {
+    cursor: not-allowed;
+}
+.cvf-universal-pagination ul li {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 8px 14px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  background-color: #fff;
+  min-width: 50px;
+  text-align: center;
+}
+
+
+.cvf-universal-pagination ul li a {
+  text-decoration: none;
+  color: #38373D;
+  display: block;
+}
+
+.cvf-universal-pagination ul li:hover {
+  background-color: #f5f5f5;
+  border-color: #ccc;
+}
+
+/* Selected (current) page */
+.cvf-universal-pagination ul li.selected {
+  background-color: #523F88;
+  border-color: #523F88;
+  color: #fff;
+}
+
+.cvf-universal-pagination ul li.selected a {
+  color: #fff;
+}
+
+/* Active pages (clickable) */
+.cvf-universal-pagination ul li.active a {
+  color: #38373D;
+}
+
+/* Inactive pages (disabled) */
+.cvf-universal-pagination ul li.inactive {
+   opacity: 0.6;
+    cursor: not-allowed;
+    background-color: #ffffff;
+    color: #38373D;
+}
+
+/* Hover effect for active links */
+.cvf-universal-pagination ul li.active:hover {
+  background-color: #523F88;
+  border-color: #523F88;
+  color: #ffffff;
+}
+.cvf-universal-pagination ul li.active:hover a{
+    color: #ffffff !important;
+}
+.loader{
+    background-image: url('img/loader.gif');
+    background-size: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+@media(max-width:1100px){
+    .workshops-listing .workshop-item, .trainer-listing .trainer-list, .workshops-listing .tab-content .workshop-item{
+        width: calc(50% - 13px);
+    }
+}
+@media(max-width:1000px){
+    .single-trainer  .content.content_top_margin, .woocommerce.single-product  .content.content_top_margin {
+       margin-top: 0px !important;
+    }
+    .single-trainer .title_size_small, .woocommerce.single-product .title_size_small{
+       padding: 0 !important;
+    }
+    .woocommerce.single-product .content .container .container_inner, .woocommerce.single-product  .content .container .container_inner {
+        padding-top: 50px !important;
+    }
+}
+@media (max-width:989px) {
+    .single-trainer .content .content_inner .container .container_inner,
+     .woocommerce.single-product  .content .container .container_inner{
+      padding: 50px 30px !important;
+    }
+    .woocommerce.single-product .content .container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .cvf-universal-pagination{
+       margin: 20px 0 0;
+    }
+    
+}
+@media(max-width:767px){
+    .workshops-listing .workshop-item, .trainer-listing .trainer-list, .workshops-listing .tab-content .workshop-item{
+        width:100%;
+    }
+    .workshop-short-desc p{
+        height: 72px;
+    }
+    .qodef-e-text::before, .qodef-e-text::after {
+        font-size: 30px;
+    }
+    .qodef-e-text {
+         padding: 0 40px !important;
+    }
+    body.woocommerce .product h1.product_title{
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 15px;
+    }
+    .woocommerce .qode-single-product-summary .product_meta{
+        gap: 12px;
+    }
+}
+
+/*Sukh CSS*/
+.single-trainer .post_image img {
+    object-fit: contain !ompirtant;
+}
+nav.main_menu > ul > li > a {
+    padding: 0 10px !important;
+}
+@media only screen and (min-width: 768px ){
+.trainer .post_content_holder {
+    display: flex !important;
+    flex-direction: row !important;
+}
+.trainer .post_content_holder .post_image {
+    width: 30% !important;
+    margin-right: 50px;
+	height:auto;
+}
+.trainer .post_content_holder .post_text {
+    width: 70%;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+	.mobile_menu_button{
+    float: right !important;
+    margin: 0 0px 0 0 !important;
+	}
+	.q_logo img{
+		top:10% !important
+	}
+	.logo_wrapper {
+        left: 100px !important;
+    }
+}
