@@ -15,8 +15,8 @@
 													
 		var logo_height = 130; // proya logo height
 		var logo_width = 280; // proya logo width
-								logo_height = 100;
-						logo_width = 400;
+								logo_height = 144;
+						logo_width = 723;
 
 											header_top_height = 0;
 					var loading_text;
