@@ -1,11 +1,11 @@
 
 					/* Webkit */
 			::selection {
-			background: #ff3333;
+			background: #ff555a;
 			}
 							/* Gecko/Mozilla */
 			::-moz-selection {
-			background: #ff3333;
+			background: #ff555a;
 			}
 		
 		
@@ -104,7 +104,7 @@
 			.qode-owl-slider-style .owl-nav .owl-prev:hover .qode-next-icon,
 			.qode-owl-slider-style .owl-nav .owl-prev:hover .qode-prev-icon
 			{
-			color: #ff3333 !important;
+			color: #ff555a !important;
 			}
 			h2 a:hover,
 			h3 a:hover,
@@ -151,7 +151,7 @@
 			.side_menu a.close_side_menu.qode-side-menu-close-svg:hover
 			{
 
-			color: #ff3333;
+			color: #ff555a;
 			}
 
 			.box_image_with_border:hover,
@@ -179,12 +179,12 @@
 						input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover,
 			.portfolio_main_holder .item_holder.image_subtle_rotate_zoom_hover .icons_holder a:hover,
 			.tabs_box_navigation.sf-timetable-menu .tabs_box_navigation_selected{
-			border-color: #ff3333			}
+			border-color: #ff555a			}
 
 			.tt_tabs .tt_tabs_navigation .ui-tabs-active a,
 			.tt_tabs .tt_tabs_navigation li a:hover,
 			.tt_tabs .tt_tabs_navigation li a{
-			border-color: #ff3333 !important;
+			border-color: #ff555a !important;
 			}
 
 			.q_icon_list i,
@@ -264,30 +264,30 @@
 			.no-touch .qode-horizontal-timeline .qode-events-wrapper .qode-events a:hover .circle-outer,
 			.qode-horizontal-timeline .qode-events-wrapper .qode-events a.selected .circle-outer
 			{
-			background-color: #ff3333;
+			background-color: #ff555a;
 			}
 
 
 			.qode-showcase-item-holder.qode-showcase-active .qode-icon-holder.qode-icon-circle{
-			background-color: #ff3333 !important;
+			background-color: #ff555a !important;
 			}
 
 			.q_circles_holder .q_circle_inner2:hover,
 			body:not(.search-results) .blog_holder article.format-link .post_text:hover .post_text_inner,
 			body:not(.search-results) .blog_holder article.format-quote .post_text:hover .post_text_inner {
-			background-color: #ff3333 !important;
-			border-color: #ff3333 !important;
+			background-color: #ff555a !important;
+			border-color: #ff555a !important;
 			}
 
 			.qode-lazy-preloader svg circle,
 			#qode-multi-device-showcase.qode-mds-appear-effect #qode-mds-spinner svg circle {
-			stroke: #ff3333			}
+			stroke: #ff555a			}
 		
 		
 								
 					body{
 											font-family: 'Work Sans', sans-serif;
-						 color: #666666; 			 font-size: 15px; 			font-weight: 400;			}
+						 color: #727374; 			 font-size: 17px; 			font-weight: 400;			}
 							body,
 				.wrapper,
 				.content,
@@ -333,7 +333,7 @@
 		
 
 														.content{
-					margin-top: -108px;
+					margin-top: -100px;
 					}
 				
 					
@@ -341,14 +341,14 @@
 			.side_menu_button,
 			.shopping_cart_inner
 			{
-			height: 108px;
+			height: 100px;
 			}
 			.content.content_top_margin{
-			margin-top: 108px !important;
+			margin-top: 100px !important;
 			}
 
 			header:not(.centered_logo) .header_fixed_right_area {
-			line-height: 108px;
+			line-height: 100px;
 			}
 
 								
@@ -374,7 +374,7 @@
 		
 						header.fixed_hiding .q_logo a,
 				header.fixed_hiding .q_logo{
-				max-height: 23px;
+				max-height: 50px;
 				}
 				
 		
@@ -388,21 +388,34 @@
 			background-size: cover;
 			}
 							nav.main_menu > ul > li > a{
-			line-height: 108px;
+			line-height: 100px;
 			}
 		
 		
 		
 					nav.main_menu > ul > li > a{
-			 color: #1d1c1c; 						 font-size: 17px; 						 font-style: normal; 			 font-weight: 600; 			 letter-spacing: -0.48px; 			 text-transform: none; 			}
+			 color: #727374; 						 font-size: 17px; 						 font-style: normal; 			 font-weight: 600; 			 letter-spacing: 0px; 			 text-transform: capitalize; 			}
 
 		
+						nav.main_menu ul li a span.underline_dash,
+				nav.vertical_menu ul li a span.underline_dash{
+				height: 2px;left: 0; transform: none; -webkit-transform: none				}
+							nav.main_menu ul li.active a span.underline_dash,
+				nav.vertical_menu ul li.active a span.underline_dash{
+				background-color: #fd5458;
+				}
+							nav.main_menu ul li:hover a span.underline_dash,
+				nav.vertical_menu ul li:hover a span.underline_dash{
+				background-color: #fd5458;
+				}
+
+			
 		
 					nav.main_menu ul li:hover a {
-			 color: #e03131; 			}
+			 color: #fd5458; 			}
 		
 					nav.main_menu ul li.active a {
-			color: #e03131			}
+			color: #fd5458			}
 			
 		
 
@@ -442,7 +455,7 @@
 			.h1,
 			.title h1,
             body.qode-overridden-elementors-fonts .elementor-widget-heading h1.elementor-heading-title{
-				color: #1d1c1c; 						font-size: 60px; 			line-height: 65px; 			font-style: normal; 			font-weight: 700; 			letter-spacing: -3px; 			text-transform: none; 			}
+				color: #1d1c1c; 						font-size: 50px; 			line-height: 55px; 			font-style: normal; 			font-weight: 700; 						text-transform: none; 			}
 				
 		
 							.title.title_size_medium h1{
@@ -456,18 +469,18 @@
 			.h3,
 			h3 a,
             body.qode-overridden-elementors-fonts .elementor-widget-heading h3.elementor-heading-title {
-									font-size: 25px; 			line-height: 30px; 			font-style: normal; 			font-weight: 700; 			letter-spacing: -1.5px; 			text-transform: none; 			}
+									font-size: 25px; 			line-height: 30px; 			font-style: normal; 			font-weight: 600; 			letter-spacing: -1.5px; 			text-transform: none; 			}
 							h4,
 			.h4,
 			h4 a,
             body.qode-overridden-elementors-fonts .elementor-widget-heading h4.elementor-heading-title {
-			color: #1d1c1c; 						font-size: 20px; 			line-height: 26px; 			font-style: normal; 			font-weight: 600; 			letter-spacing: -1px; 			text-transform: none; 			}
+			color: #1d1c1c; 						font-size: 20px; 			line-height: 26px; 			font-style: normal; 			font-weight: 600; 			letter-spacing: 0px; 			text-transform: none; 			}
 							h5,
 			.h5,
 			h5 a,
             body.qode-overridden-elementors-fonts .elementor-widget-heading h5.elementor-heading-title,
 			.q_icon_with_title .icon_text_holder h5.icon_title{
-			color: #1d1c1c; 						font-size: 16px; 			line-height: 24px; 			font-style: normal; 			font-weight: 600; 			letter-spacing: -0.32px; 			text-transform: none; 			}
+			color: #1d1c1c; 						font-size: 18px; 			line-height: 24px; 			font-style: normal; 			font-weight: 500; 			letter-spacing: 0px; 			text-transform: none; 			}
 							h6,
 			.h6,
 			h6 a,
@@ -478,7 +491,7 @@
 
 					p,
             body.qode-overridden-elementors-fonts .elementor-widget-heading p.elementor-heading-title {
-			color: #666666;						font-size: 15px;			line-height: 25px;			font-style: normal;			font-weight: 400;			margin-top: 0px;			margin-bottom: 0px;			}
+			color: #727374;						font-size: 17px;			line-height: 22px;			font-style: normal;			font-weight: 400;									}
 			.filter_holder ul li span,
 			blockquote h5,
 			.q_social_icon_holder .simple_social,
@@ -511,7 +524,7 @@
 			.side_menu #lang_sel_list.lang_sel_list_horizontal a,
 			.side_menu #lang_sel_list.lang_sel_list_vertical a,
 			#lang_sel_footer a{
-			color: #666666;			}
+			color: #727374;			}
 			.header_top #lang_sel > ul > li > a,
 			.header_top #lang_sel_click > ul > li> a,
 			footer #lang_sel ul li a,
@@ -525,8 +538,20 @@
 			section.side_menu #lang_sel_click > ul > li > a,
 			section.side_menu #lang_sel_click ul ul a,
 			section.side_menu #lang_sel_click ul ul a:visited{
-			color: #666666 !important;			}
-									
+			color: #727374 !important;			}
+										a, p a{
+									font-weight: 500;			text-decoration: underline;			}
+
+										a:hover,p a:hover,
+			h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover,
+			.q_tabs .tabs-nav li a:hover,
+			.q_icon_with_title .icon_with_title_link:hover,
+			.blog_holder article .post_description a:hover,
+			.blog_holder.masonry article .post_info a:hover,
+			.portfolio_social_holder a:hover,
+			.latest_post_inner .post_infos a:hover{
+			color: #fd5458;			text-decoration: underline;			}
+		
 
 					.subtitle {
 			font-size: 20px;line-height: 32px;font-weight: 600;font-style: normal;			}
@@ -1151,21 +1176,21 @@
 
 .qode-btn { text-transform: none;font-style: normal;}
 
-.qode-interactive-project-list .qode-ipl-inner .qode-ipl-left article .qode-ipl-item-inner .qode-ipl-item-text .qode-ipl-title, .qode-interactive-project-list .qode-ipl-inner .qode-ipl-left article .qode-ipl-item-inner .qode-ipl-item-text .qode-ipl-title-aux { color: #ff3333;-webkit-text-stroke-color: #ff3333;}
+.qode-interactive-project-list .qode-ipl-inner .qode-ipl-left article .qode-ipl-item-inner .qode-ipl-item-text .qode-ipl-title, .qode-interactive-project-list .qode-ipl-inner .qode-ipl-left article .qode-ipl-item-inner .qode-ipl-item-text .qode-ipl-title-aux { color: #ff555a;-webkit-text-stroke-color: #ff555a;}
 
-.qode-interactive-project-list .qode-ipl-inner .qode-ipl-left article .qode-ipl-item-inner .qode-ipl-item-text .qode-ipl-category-holder a { color: #ff3333;}
+.qode-interactive-project-list .qode-ipl-inner .qode-ipl-left article .qode-ipl-item-inner .qode-ipl-item-text .qode-ipl-category-holder a { color: #ff555a;}
 
-.qode-interactive-project-list .qode-ipl-inner .qode-ipl-left article .qode-ipl-item-inner .qode-ipl-item-text .qode-ipl-item-number-holder span { color: #ff3333;border-color: rgba(255, 51, 51, .2);}
+.qode-interactive-project-list .qode-ipl-inner .qode-ipl-left article .qode-ipl-item-inner .qode-ipl-item-text .qode-ipl-item-number-holder span { color: #ff555a;border-color: rgba(255, 85, 90, .2);}
 
-.latest_post_holder.image_on_the_left_boxed .date_hour_holder, .latest_post_holder.image_on_the_left_boxed .featured .read_more:before { background-color: #ff3333;}
+.latest_post_holder.image_on_the_left_boxed .date_hour_holder, .latest_post_holder.image_on_the_left_boxed .featured .read_more:before { background-color: #ff555a;}
 
-.qode-portfolio-carousel .qode-pc-custom-cursor { color: #ff3333;border-color: #ff3333;}
+.qode-portfolio-carousel .qode-pc-custom-cursor { color: #ff555a;border-color: #ff555a;}
 
-#qode-portfolio-list-stacked .qode-pls-end-of-scroll .qode-eos-title * { color: #ff3333;-webkit-text-stroke-color: #ff3333;}
+#qode-portfolio-list-stacked .qode-pls-end-of-scroll .qode-eos-title * { color: #ff555a;-webkit-text-stroke-color: #ff555a;}
 
-#qode-pls-info .qode-pls-title-holder .qode-pls-title a { color: #ff3333;}
+#qode-pls-info .qode-pls-title-holder .qode-pls-title a { color: #ff555a;}
 
-#qode-portfolio-list-stacked .qode-pls-scroll-note .qode-pls-down svg path { fill: #ff3333;}
+#qode-portfolio-list-stacked .qode-pls-scroll-note .qode-pls-down svg path { fill: #ff555a;}
 
 .qode-report-sheet .qode-rs-table .qode-rs-table-content .qode-rs-table-row, .qode-report-sheet .qode-rs-table .qode-rs-table-header { border-color: rgba(255, 60, 60, 0.3);}
 

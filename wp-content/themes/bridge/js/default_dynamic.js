@@ -10,13 +10,13 @@
 		var paspartu_width_init = 0.02;
         var add_for_admin_bar = jQuery('body').hasClass('admin-bar') ? 32 : 0;
 
-						header_height = 108;
+						header_height = 100;
 											min_header_height_sticky = 80;
 													
 		var logo_height = 130; // proya logo height
 		var logo_width = 280; // proya logo width
-								logo_height = 46;
-						logo_width = 111;
+								logo_height = 100;
+						logo_width = 400;
 
 											header_top_height = 0;
 					var loading_text;
@@ -26,7 +26,7 @@
 		
 			var piechartcolor;
 			piechartcolor	= "#1abc9c";
-							piechartcolor = "#ff3333";
+							piechartcolor = "#ff555a";
 			
 			var geocoder;
 			var map;
