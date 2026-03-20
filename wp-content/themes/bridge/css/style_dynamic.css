@@ -421,14 +421,107 @@
 
 		
 
-																		
+					.drop_down .second .inner > ul > li > a,
+			.drop_down .second .inner > ul > li > h3,
+			.drop_down .wide .second .inner > ul > li > h3,
+			.drop_down .wide .second .inner > ul > li > a,
+			.drop_down .wide .second ul li ul li.menu-item-has-children > a,
+			.drop_down .wide .second .inner ul li.sub ul li.menu-item-has-children > a,
+			.drop_down .wide .second .inner > ul li.sub .flexslider ul li  h5 a,
+			.drop_down .wide .second .inner > ul li .flexslider ul li  h5 a,
+			.drop_down .wide .second .inner > ul li.sub .flexslider ul li  h5,
+			.drop_down .wide .second .inner > ul li .flexslider ul li  h5,
+			.header_top #lang_sel ul li ul li a {
+			 color: #000000; 						 font-size: 17px; 									font-weight: 600; 						 letter-spacing: 0px;  			}
+							.drop_down .second .inner > ul > li > a:hover,
+			.drop_down .wide .second ul li ul li.menu-item-has-children > a:hover,
+			.drop_down .wide .second .inner ul li.sub ul li.menu-item-has-children > a:hover{
+			color: #fd5458 !important;
+			}
+													.drop_down .wide .second .inner>ul>li>a
+			{
+			 color: #000000; 						 font-size: 17px; 									font-weight: 600; 						 letter-spacing: 0px;  			}
+							.drop_down .wide .second .inner>ul>li>a:hover{
+			color: #fd5458 !important;
+			}
+							.drop_down .wide .second .inner ul li.sub ul li a,
+			.drop_down .wide .second ul li ul li a,
+			.drop_down .second .inner ul li.sub ul li a,
+			.drop_down .wide .second ul li ul li a,
+			.drop_down .wide .second .inner ul li.sub .flexslider ul li .menu_recent_post,
+			.drop_down .wide .second .inner ul li .flexslider ul li .menu_recent_post a,
+			.drop_down .wide .second .inner ul li .flexslider ul li .menu_recent_post,
+			.drop_down .wide .second .inner ul li .flexslider ul li .menu_recent_post a{
+			 color: #000000;  						 font-size: 17px;  									 font-weight: 600;  						 letter-spacing: 0px;  			}
+			.drop_down .wide.icons .second i{
+			 color: #000000;  			}
+							.drop_down .second .inner ul li.sub ul li a:hover,
+			.drop_down .wide .second ul li.show_widget_area_in_popup:hover .popup_wrapper > a,
+			.drop_down .second .inner ul li ul li a:hover,
+			.drop_down .wide.icons .second a:hover i
+			{
+			color: #fd5458 !important;
+			}
+		
 
-						
+					header.scrolled nav.main_menu > ul > li > a,
+			header.light.scrolled nav.main_menu > ul > li > a,
+			header.dark.scrolled nav.main_menu > ul > li > a{
+			 color: #000000; 																								}
+							header.scrolled .side_menu_button a {
+			 color: #000000 !important; 			}
+							header.scrolled nav.main_menu > ul > li > a:hover > span,
+			header.scrolled nav.main_menu > ul > li:hover > a > span,
+			header.scrolled nav.main_menu > ul > li.active > a > span,
+			header.scrolled nav.main_menu > ul > li > a:hover > i,
+			header.scrolled nav.main_menu > ul > li:hover > a > i,
+			header.scrolled nav.main_menu > ul > li.active > a > i,
+			header.scrolled .side_menu_button a:hover,
+			.light.scrolled nav.main_menu > ul > li > a:hover,
+			.light.scrolled nav.main_menu > ul > li.active > a,
+			.light.scrolled .side_menu_button a:hover,
+			.dark.scrolled nav.main_menu > ul > li > a:hover,
+			.dark.scrolled nav.main_menu > ul > li.active > a,
+			.dark.scrolled .side_menu_button a:hover {
+			color: #fd5458 !important;
+			}
 		
+					header.sticky nav.main_menu > ul > li > a,
+			header.light.sticky nav.main_menu > ul > li > a,
+			header.dark.sticky nav.main_menu > ul > li > a{
+			 color: #000000; 						 font-size: 17px; 									font-weight: 600; 									}
 		
+					header.sticky .side_menu_button a,
+			header.sticky .side_menu_button a:hover{
+			 color: #000000; 			}
 		
+					header.sticky nav.main_menu > ul > li > a:hover span,
+			header.sticky nav.main_menu > ul > li.active > a span,
+			header.sticky nav.main_menu > ul > li:hover > a > span,
+			header.sticky nav.main_menu > ul > li > a:hover > i,
+			header.sticky nav.main_menu > ul > li:hover > a > i,
+			header.sticky nav.main_menu > ul > li.active > a > i,
+			.light.sticky nav.main_menu > ul > li > a:hover,
+			.light.sticky nav.main_menu > ul > li.active > a,
+			.dark.sticky nav.main_menu > ul > li > a:hover,
+			.dark.sticky nav.main_menu > ul > li.active > a{
+			color: #fd5458 !important;
+			}
 		
+					nav.mobile_menu ul li a,
+			nav.mobile_menu ul li h3{
+			 color: #000000; 						 font-size: 17px; 									 font-weight: 600; 									}
+
 		
+					nav.mobile_menu ul li span.mobile_arrow i, nav.mobile_menu ul li span.mobile_arrow i {
+			color: #000000;
+			}
+		
+					nav.mobile_menu ul li a:hover,
+			nav.mobile_menu ul li.active > a,
+			nav.mobile_menu ul li.current-menu-item > a{
+			color: #fd5458;
+			}
 				
 									#respond textarea,
 			#respond input[type='text'],
@@ -464,7 +557,7 @@
 			.h2,
 			h2 a,
             body.qode-overridden-elementors-fonts .elementor-widget-heading h2.elementor-heading-title {
-			color: #1d1c1c; 						font-size: 40px; 			line-height: 43px; 			font-style: normal; 			font-weight: 700; 			letter-spacing: -1px; 			text-transform: none; 			}
+			color: #1d1c1c; 						font-size: 40px; 			line-height: 43px; 			font-style: italic; 			font-weight: 700; 			letter-spacing: -1px; 			text-transform: none; 			}
 							h3,
 			.h3,
 			h3 a,
@@ -595,7 +688,7 @@
 			.footer_top li,
 			.footer_top .textwidget,
 			.footer_top .widget_recent_entries>ul>li>span {
-			color: #b8b7b7;
+			color: #ffffff;
 			}
 							.footer_top a:not(.qbutton)
 			{
@@ -615,7 +708,7 @@
 			}
 		
 					.footer_top_holder{
-			background: url(http://exogatech.acutetest.com/wp-content/uploads/2017/10/footer-bckg-image.jpg) no-repeat;
+			background: url(http://exogatech.acutetest.com/wp-content/uploads/2026/03/footer-bckg-image.jpg) no-repeat;
 			background-size: cover;
 			}
 		
@@ -1138,7 +1231,9 @@
 				
 				
 				
-										
+		.breadcrumb, .breadcrumb .current, .breadcrumb a { font-size: 17px;text-transform: capitalize;font-style: normal;font-weight: 600;}
+
+								
 
 					.qbutton,
 			.qbutton.medium,
